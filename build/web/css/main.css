@@ -1,0 +1,243 @@
+body{
+    font-family: verdana;
+    margin: 0px;
+    background-image: url('../images/final_1.jpg');
+    }
+.htext{
+     font-size: 1.2vw;
+     color:black;
+     text-decoration: none;
+     padding: 1vw 1vw;
+     width: 18vw;
+     display: inline-block;
+}
+.htext:hover{
+    background-color: #ccc;
+    text-decoration: none;
+}
+.delete_btn{
+    float: right;
+    margin-right: 1vw;
+    border-radius: 0.5vw;
+    background-color:#cc0000;
+    border: none;
+    height: 2.5vw;
+    color: white;
+    width: 10vw;
+}
+.delete_btn:hover{
+    background-color: #ff0000;
+}
+.sub_btn{
+    border-radius: 0.5vw;
+    background-color: #3367D6;
+    box-shadow: 0.1vw 0.0vw 0.6vw #adadad;
+    border: none;
+    height: 3vw;
+    font-size: 1.2vw;
+    color: white;
+    width: 10vw;
+    cursor:pointer;
+}
+.sub_btn:hover{
+    background-color: #0066ff;
+}
+td{
+    font-size: 1.1vw;
+}
+td.h1{
+    background-color: rgba(154,169,172,1);
+    padding: 0.5vw 0.7vw;
+    font-size: 1.2vw;
+    font-weight:bold;
+    border-radius: 0.4vw;
+    width:100%;
+    color:black;
+    }
+div.form{
+    width: 87%;
+    border-radius: 1vw;
+    /*border: solid 1px #adadad;*/
+    padding: 1.1vw 1.1vw;
+    margin:0.5vw 6vw;
+    z-index: 111;
+    }
+    .form_bg{
+        background-color:white ;
+        border-radius: 1vw;
+        opacity:.7;
+        width:88.5%;
+        position: absolute;
+        margin:0.5vw 6vw;
+        z-index: -11;
+    }
+input[type=submit]{
+    font-size: 1.3vw;
+    }
+
+input[type=text],input[type=email],input[type=number],input[type=date],input[type=password], select ,textArea,.list{
+  width: 20vw;
+  padding: 0.4vw 0.4vw;
+  margin: 0.2vw 0;
+  display: inline-block;
+  border: 0.1vw solid lightgray;
+  border-radius: 0.4vw;
+  box-sizing: border-box;
+  text-transform:capitalize;
+   
+}
+/*input[type=text]:hover,input[type=email]:hover,input[type=number]:hover,input[type=date]:hover,
+input[type=password]:hover,select:hover ,textArea.hover-open,.list:hover{
+    -moz-transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            -o-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            transform: scale(1.05);
+            transition: all 0.1s ease-in;
+}*/
+input[type=email],input[type=date]{
+      text-transform:none;
+}
+
+table{
+    width:100%;
+    
+     width: 99%;background:none;border:black;
+    margin-left: 0.5vw;font-size: 1vw;
+    padding-top: -0.3vw;
+}
+.a{
+    background:none;
+    font-size: 1.5vw;
+    color: black;
+    margin-left:6vw;
+    text-align: center;
+}
+
+label{
+    font-size: 1.1vw;
+}
+.s_form{
+    position: fixed;margin-left: 42vw;z-index: 11;
+}
+.s_by{
+    color:black;width: 12vw;position: fixed;top:0.5vw;font-size: 1.2vw;border:none;
+        background-color: #ccc;height: 2.5vw;
+}
+.s_option{
+    color:black;background-color: white;
+}
+.s_text{
+    text-transform: none;left: 55vw;font-size: 1.2vw;color:black;
+       position: fixed;top:0.5vw;border:none;background-color: #ccc;height:2.5vw;
+}
+.search_btn{
+    background: none;cursor: pointer;border: none;margin-top:0.8vw;margin-left: 44vw;position: fixed;
+}
+#profile_pic{
+    cursor: pointer;
+    position:fixed;margin-top:0.5vw;height: 2.8vw;width: 2.8vw;border-radius: 2vw;margin-left: 94vw;z-index: 11;
+}
+#drop{
+    display: none;position: fixed;top:3vw;right: 0.5vw;box-shadow: 0.1vw 0.1vw 0.3vw #ccc;background:whitesmoke;z-index: 2;
+}
+#mySidebar_main{
+    position: fixed; width: 100%; top:0vw; z-index: 11;left:0vw;
+        background-color: whitesmoke; height:3.9vw; box-shadow:0.1vw 0.0vw 0.3vw #666666;
+}
+#mySidebar{
+    display:none;background:whitesmoke;margin-top: 3.95vw;height: 100%;position: fixed;z-index:111;width: 20vw;
+}
+.icon{
+    width:1.4vw; height: 1.4vw;
+    margin-right: 1vw;
+}
+.addFees_icon{
+    width:2.2vw; height: 2.2vw;
+}
+#openNav{
+    margin:0.2vw;position:fixed;background:none;border:none;font-size:2.4vw;color:black;
+           opacity: 1;z-index: 111;
+}
+.logo{
+    z-index: 1111;top:0.4vw; position: fixed;left: 4vw; height: 3.1vw;
+}
+.form_logo{
+    height: 4.4vw;
+    width: 15vw;margin-top: 5%;
+}
+.form_input{
+    height: 3vw;width:60%;
+                font-size: 1.2vw;
+                text-align: center;
+}
+.form_h5{
+    margin-top: -0.1vw;
+}
+.data_counter{
+    margin-top: -4vw;margin-bottom: 1vw;margin-left:47%;font-size: 1.6vw;
+}
+.s1{
+            height:2.2vw;
+            width: 2vw;
+            border:none;
+            background-color: white;
+            background-repeat: no-repeat;
+}
+
+.mytooltip .tooltiptext{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position:absolute;
+  z-index: 111;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+.mytooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+.mytooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.add_btn{
+    float: right;
+    margin-right: 2vw;
+    border-radius: 0.5vw;
+   background-color: #009900;
+    border: none;
+    height: 2.5vw;
+    color: white;
+    width: 10vw;
+}
+.add_btn:hover{
+    cursor: pointer;
+    background-color: #00cc00;
+}
+#add_form,#edit_form{
+    width: 35%;
+    z-index: 11111;
+    background-color: whitesmoke;
+    box-shadow: 0.1vw 0.0vw 0.6vw #adadad;
+    border-radius: 2vw;
+    padding: 2vw 2vw;
+    position: absolute;
+    left: 32%;
+    text-align: center;
+    top:20%;
+}
+
+

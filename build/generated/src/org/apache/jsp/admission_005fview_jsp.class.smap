@@ -1,0 +1,22 @@
+SMAP
+admission_005fview_jsp.java
+JSP
+*S JSP
+*F
++ 0 admission_view.jsp
+admission_view.jsp
+*L
+1,14:48
+14:61,2
+15,33:63
+49,23:97
+71:120
+72,11:121,3
+83:154
+84:155,3
+85,8:158
+92,2:165
+93:167
+94:168,3
+95,3:171
+*E

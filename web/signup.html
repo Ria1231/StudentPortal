@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style1.css" >
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+ input[type=text],input[type=password] {
+  width: 80%;
+  align-items: center;
+}
+
+.wrapper {
+  padding: 35px 0px;
+  width: 100%;
+  
+}
+
+#formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px 20px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+#icon {
+  width:20%;
+  text-align: left;
+}
+span{
+    color: #56baed;
+    color: #0066ff;
+    font-size: 15px;
+    font-weight:bold;
+}
+td{
+    text-align: right
+}
+    </style>
+    <body>
+        <div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="signup.jpg" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form action="admin_login.jsp" method="post">
+      <table>
+          <tr>
+             <td><span>User Name</span> </td>
+             <td><input type="text" id="login" class="fadeIn second" name="uname" placeholder="UserName"><br></td></tr>
+          <tr>
+              <td><span>Email ID</span></td>
+              <td><input type="text" id="login" class="fadeIn second" name="emailid" placeholder="Email ID"><br></td>
+          </tr>
+          <tr>
+              <td><span>Password</span></td>
+              <td><input type="password" id="password" class="fadeIn third" name="password" placeholder="password"><br></td>
+          </tr>
+          <tr>
+              <td><span>Confirm Password</span></td>
+              <td><input type="password" id="cpassword" class="fadeIn fourth" name="cpassword" placeholder="confirm password"><br></td>
+          </tr>
+          </table>
+          <input type="submit" class="fadeIn fourth" value="Sign Up">
+          
+      </form>
+    <div id="formFooter">
+      <a class="underlineHover" href="login.html">Already have an account? </a>
+    </div>
+  </div>
+        </div>
+    </body>
+</html>

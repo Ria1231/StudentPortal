@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Admin Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <style>
+            input[type='text'],input[type='password']{
+                height: 3vw;width:60%;
+                font-size: 1.2vw;
+                text-align: center;
+}
+a{
+    font-size: 1.1vw;
+    color: blue;
+    text-decoration: none;
+}
+img{
+    width: 1.6vw;height:1.8vw;position: relative;top:0.3vw;
+}
+        </style>
+    </head>
+    <body style="background-image:url('images/final_1.jpg');">        <center>
+            <div style="height:35.7vw;width:40%;left:24.5%;" class="form_bg"></div>
+    <div class="form"  style="font-size: 1.6vw; margin-top: 6vw;width: 38.5%;">
+    <form action="index.jsp" method="post">
+        <img src="images/logo.png" class="form_logo" alt=''/><br>
+        <h4>Student Portal</h4>
+        <input type='text' placeholder="Username" name="uname"/><br><br>
+        <input type='password' placeholder="Password" name="pass"/><br><br><br>
+        <input type="submit" value="LOG IN" class="sub_btn"/><br><br>
+        <input type="hidden" name="request" value="check"/>
+        <img src="css/icons/forgot.png" alt=""/><a href="passwordForm.html" >Forgot Password ?</a><br>
+        <img src="css/icons/profile.png" alt="" style="height: 1.4vw;"/><a href="createUser.html" > Create New User</a><br>
+    </form>
+</div>
+</center>
+    </body>
+</html>

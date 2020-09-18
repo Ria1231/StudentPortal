@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Base</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+<div id="mySidebar"><br>
+<a href="index.jsp" class="htext">
+<img src="css/icons/123390.png" class="icon" alt=""/>Dashboard</a><br>
+<a href="view.jsp" class="htext">
+<img src="css/icons/excel1.png" class="icon" alt=""/>Imported Data</a><br>
+<a href="eform.jsp" class="htext">
+<img src="css/icons/enquiry_form.png" class="icon" alt=""/>Enquiry Form</a><br>
+<a href="enquiry_view.jsp" class="htext">
+<img src="css/icons/enq_data.png" class="icon" alt=""/>Enquiry Data</a><br>
+<a href="admission_form.jsp" class="htext">
+<img src="css/icons/admission_form.png" class="icon" alt=""/>Admission Form</a><br>
+<a href="admission_view.jsp" class="htext">
+<img src="css/icons/database.png" class="icon" alt=""/>Admission Data</a><br>
+<a href="course.jsp" class="htext">
+    <img src="css/icons/course.png" class="icon" alt=""/>Course</a><br>
+<a href="fees_detail.jsp" class="htext">
+    <img src="css/icons/fee.png" class="icon" alt=""/>Fees</a><br>
+    
+  
+</div>
+<div id="main">
+<button id="openNav" onclick="w3_open()">&#9776;</button>
+<div id="mySidebar_main" style="">
+    <a href="index.jsp" style="cursor: pointer">
+        <img src="images/logo.png" class="logo" alt="logo">
+    </a>
+</div>  
+<form action="search1" method="post" class="s_form">
+<select name="s_by" class="s_by">
+<option class="s_option" value="stu_name">Search By</option>
+<option class="s_option" value="stu_name">Name</option>
+<option class="s_option" value="stu_mob1">Mobile Number</option>
+<option class="s_option" value="email">Email</option>
+<option class="s_option" value="course">Course</option>
+</select>  
+<input type="text" name="sname" class="s_text" style="width:30vw;">
+<button type="submit" class="search_btn">
+<img src="css/icons/search.png" style="width:1.8vw; height: 2vw;" alt="Search"/></button><br></form>
+<img src="images/images.jpg" id="profile_pic" alt="abc" onclick="profile_open()"/>
+</div>
+<div id="drop"><br>
+    <a class="htext" href="newPassword.jsp"><img src="css/icons/change_pass.png" class="icon" alt=""/>Change Password</a><br>
+    <a class="htext" href="profile.jsp"><img src="css/icons/profile.png" class="icon" alt=""/>Profile</a><br>
+    <a class="htext" href="settings.jsp"><img src="css/icons/settings.png" class="icon" alt=""/>Settings</a><br><hr>
+    <a class="htext" href="login_logout"><img src="css/icons/logout.png" class="icon" alt=""/>Logout</a><br><br>
+  </div>
+<script>
+//sidebar & profile view
+var profile_eve=false;
+var sidebar=false;
+function w3_open(){
+    if(sidebar===false){
+        document.getElementById("mySidebar").style.display = "block";
+        sidebar=true;
+    }
+    else{
+        document.getElementById("mySidebar").style.display = "none";
+        sidebar=false;
+    }
+}
+function profile_open(){
+    if(profile_eve===false){
+            document.getElementById("drop").style.display='block';
+            profile_eve=true;
+    }
+    else{
+        document.getElementById("drop").style.display='none';
+            profile_eve=false;
+    }
+}
+</script><br><br><br>
+    </body>
+</html>
